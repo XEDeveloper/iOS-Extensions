@@ -1,0 +1,8 @@
+
+extension String {
+
+    // shortened ternary
+    func ifEmpty(_ string: String = "") -> String {
+        return string.isEmpty ? string : self
+    }
+}
